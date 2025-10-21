@@ -1,20 +1,20 @@
 public class Problema2 {
     static int max(int[] a){
-        int m = a[0];
+        int max = a[0];
         for (int x : a){
-            if (x > m)
-                m = x;
+            if (x > max)
+                max = x;
         }
-        return m;
+        return max;
     }
 
     static int min(int[] a){
-        int m = a[0];
+        int min = a[0];
         for (int x : a){
-            if (x < m)
-                m = x;
+            if (x < min)
+                min = x;
         }
-        return m;
+        return min;
     }
 
     static int summax(int[] a){
